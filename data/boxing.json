@@ -1,0 +1,5001 @@
+{
+  "schema_version": "2.0.0",
+  "database_version": "2026.10.02",
+  "discipline": "Boxing",
+  "status": "active",
+  "quality_policy": {
+    "count_target": null,
+    "rule": "No technique is included to meet a numeric quota.",
+    "inclusion": "Each record must have a recognized technical source and/or elite competition/direct-instruction validation, a current rules/safety review, and a distinct technical purpose.",
+    "default_curriculum_evidence": [
+      "A",
+      "B"
+    ],
+    "elite_variants": "C records are verified and effective but style-dependent; they are not universal defaults.",
+    "reference_only": "D records, if present, are reference-only and excluded from normal progression."
+  },
+  "level_definitions": {
+    "beginner": "Foundational actions with low prerequisite burden; balance, safety and repeatable mechanics come first.",
+    "intermediate": "Established fundamentals plus timing, chaining, positional awareness or reaction-based execution.",
+    "advanced": "Higher coordination, reaction dependence, positional risk, rules complexity, specialist execution or elite-system variation."
+  },
+  "counts": {
+    "total": 117,
+    "beginner": 25,
+    "intermediate": 63,
+    "advanced": 29
+  },
+  "sources": [
+    {
+      "source_id": "SRC-BOX-01",
+      "discipline": "Boxing",
+      "source_type": "Governing-body coaching",
+      "name": "England Boxing — Level 1 Coaching Handbook",
+      "url": "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+      "use": "Primary mechanics for stance, guard, footwork, punches and basic defence."
+    },
+    {
+      "source_id": "SRC-BOX-05",
+      "discipline": "Boxing",
+      "source_type": "Elite coaching validation",
+      "name": "Teddy Atlas — The Fundamentals of Boxing",
+      "url": "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+      "use": "Elite coaching validation for distance, defence, movement and counters."
+    },
+    {
+      "source_id": "SRC-BOX-04",
+      "discipline": "Boxing",
+      "source_type": "Rules",
+      "name": "World Boxing — Competition Documents",
+      "url": "https://worldboxing.org/competitions/general-competition-documents/",
+      "use": "Current competition/rules context."
+    },
+    {
+      "source_id": "SRC-BOX-06",
+      "discipline": "Boxing",
+      "source_type": "Elite coaching validation",
+      "name": "Teddy Atlas — Footwork: Boxing's Transit System",
+      "url": "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+      "use": "Elite footwork, angle creation, ring cutting and trap-setting."
+    },
+    {
+      "source_id": "SRC-BOX-02",
+      "discipline": "Boxing",
+      "source_type": "Governing-body coaching",
+      "name": "England Boxing — Level 2 Coaching Handbook",
+      "url": "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+      "use": "Combination work, tactical development and advanced coaching."
+    },
+    {
+      "source_id": "SRC-BOX-08",
+      "discipline": "Boxing",
+      "source_type": "Elite coaching validation",
+      "name": "Teddy Atlas — Intelligence: The Art of Counter Punching",
+      "url": "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+      "use": "Counter-punching systems, defensive-to-offensive transitions, timing and traps."
+    },
+    {
+      "source_id": "SRC-BOX-09",
+      "discipline": "Boxing",
+      "source_type": "Elite coaching validation",
+      "name": "Teddy Atlas — The Peekaboo Style of Boxing",
+      "url": "https://dynamicstriking.com/collections/video/products/the-peekaboo-style-of-boxing-by-teddy-atlas",
+      "use": "Pressure entries, side-to-side movement, combination punching and safe pocket exits; variant-only validation."
+    },
+    {
+      "source_id": "SRC-BOX-07",
+      "discipline": "Boxing",
+      "source_type": "Elite direct instruction",
+      "name": "Mike Tyson — Peekaboo fundamentals excerpt",
+      "url": "https://dynamicstriking.com/blogs/news/free-technique-mike-tyson-gifts-you-a-free-technique-from-his-instructional",
+      "use": "Elite-method validation for protected pressure entry; stored only as a variant, not universal doctrine."
+    }
+  ],
+  "techniques": {
+    "beginner": [
+      {
+        "technique_id": "BOX-029",
+        "technique": "1-2 (jab-cross)",
+        "category": "Combination",
+        "subcategory": "Straight series",
+        "aics_level": "Beginner",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "BOX-080",
+        "technique": "Catch jab -> jab",
+        "category": "Counter",
+        "subcategory": "Catch counter",
+        "aics_level": "Beginner",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-079",
+        "technique": "Parry jab -> rear straight",
+        "category": "Counter",
+        "subcategory": "Parry counter",
+        "aics_level": "Beginner",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-025",
+        "technique": "High-guard shell",
+        "category": "Defense",
+        "subcategory": "Block",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-068",
+        "technique": "Forearm body block",
+        "category": "Defense",
+        "subcategory": "Body defense",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-024",
+        "technique": "Step-back defence",
+        "category": "Defense",
+        "subcategory": "Distance",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-018",
+        "technique": "Catch / jab block",
+        "category": "Defense",
+        "subcategory": "Hand defense",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-021",
+        "technique": "Outside slip",
+        "category": "Defense",
+        "subcategory": "Head movement",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-019",
+        "technique": "Lead-hand parry",
+        "category": "Defense",
+        "subcategory": "Parry",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-006",
+        "technique": "Lateral step",
+        "category": "Footwork",
+        "subcategory": "Lateral",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "BOX-043",
+        "technique": "Circle step",
+        "category": "Footwork",
+        "subcategory": "Lateral movement",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-005",
+        "technique": "Backward step",
+        "category": "Footwork",
+        "subcategory": "Linear",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "BOX-004",
+        "technique": "Forward step",
+        "category": "Footwork",
+        "subcategory": "Linear",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "BOX-041",
+        "technique": "Step-drag advance",
+        "category": "Footwork",
+        "subcategory": "Linear movement",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-042",
+        "technique": "Step-drag retreat",
+        "category": "Footwork",
+        "subcategory": "Linear movement",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-003",
+        "technique": "Basic guard",
+        "category": "Foundation",
+        "subcategory": "Guard",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "foundation"
+        ]
+      },
+      {
+        "technique_id": "BOX-001",
+        "technique": "Orthodox stance",
+        "category": "Foundation",
+        "subcategory": "Stance",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "foundation"
+        ]
+      },
+      {
+        "technique_id": "BOX-002",
+        "technique": "Southpaw stance",
+        "category": "Foundation",
+        "subcategory": "Stance",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "foundation"
+        ]
+      },
+      {
+        "technique_id": "BOX-061",
+        "technique": "Lead hook to body",
+        "category": "Punch",
+        "subcategory": "Body hook",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-013",
+        "technique": "Lead hook",
+        "category": "Punch",
+        "subcategory": "Hook",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-054",
+        "technique": "Stiff jab",
+        "category": "Punch",
+        "subcategory": "Jab variation",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-009",
+        "technique": "Jab to head",
+        "category": "Punch",
+        "subcategory": "Straight",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-012",
+        "technique": "Rear straight / cross",
+        "category": "Punch",
+        "subcategory": "Straight",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-111",
+        "technique": "Exit after combination",
+        "category": "Tactics",
+        "subcategory": "Defensive transition",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-107",
+        "technique": "Jab feint",
+        "category": "Tactics",
+        "subcategory": "Feint",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-01",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/EB_Boxing-Coaching-Handbook-Part-1_v8-002.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "technique_id": "BOX-100",
+        "technique": "Jab feint -> rear straight to body",
+        "category": "Combination",
+        "subcategory": "Feint / level change",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-032",
+        "technique": "Jab feint -> cross -> lead hook",
+        "category": "Combination",
+        "subcategory": "Feint series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "BOX-089",
+        "technique": "Jab -> cross -> lead hook -> cross",
+        "category": "Combination",
+        "subcategory": "Four-punch series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-092",
+        "technique": "Jab -> lead hook -> cross",
+        "category": "Combination",
+        "subcategory": "Lead-side change",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-101",
+        "technique": "Body jab -> lead hook head",
+        "category": "Combination",
+        "subcategory": "Level-change counter",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-094",
+        "technique": "Jab body -> cross head -> lead hook body",
+        "category": "Combination",
+        "subcategory": "Level-change series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-033",
+        "technique": "Jab body -> rear straight head -> jab head",
+        "category": "Combination",
+        "subcategory": "Level-change series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "BOX-093",
+        "technique": "Jab head -> cross body -> lead hook head",
+        "category": "Combination",
+        "subcategory": "Level-change series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-095",
+        "technique": "Double jab -> cross -> lead hook",
+        "category": "Combination",
+        "subcategory": "Pressure series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-097",
+        "technique": "Lead hook body -> lead hook head",
+        "category": "Combination",
+        "subcategory": "Same-side double",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-030",
+        "technique": "1-1-2",
+        "category": "Combination",
+        "subcategory": "Straight series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Connect punches through continuous balance and weight transfer.",
+          "Change level/angle only when it improves target access.",
+          "Finish with defensive responsibility and an exit option."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "BOX-031",
+        "technique": "1-2-3",
+        "category": "Combination",
+        "subcategory": "Straight-to-hook",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Connect punches through continuous balance and weight transfer.",
+          "Change level/angle only when it improves target access.",
+          "Finish with defensive responsibility and an exit option."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "BOX-091",
+        "technique": "Jab -> rear uppercut -> lead hook",
+        "category": "Combination",
+        "subcategory": "Straight-to-inside",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-090",
+        "technique": "Cross -> lead hook -> cross",
+        "category": "Combination",
+        "subcategory": "Three-punch series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-081",
+        "technique": "Catch hook -> same-side counter",
+        "category": "Counter",
+        "subcategory": "Catch-and-pitch",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-077",
+        "technique": "Outside slip -> lead hook",
+        "category": "Counter",
+        "subcategory": "Hook counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-085",
+        "technique": "Jab over opponent's jab",
+        "category": "Counter",
+        "subcategory": "Jab counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-084",
+        "technique": "Step-back -> rear straight",
+        "category": "Counter",
+        "subcategory": "Range counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-082",
+        "technique": "Roll under lead hook -> lead hook",
+        "category": "Counter",
+        "subcategory": "Roll counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-083",
+        "technique": "Roll under rear hook -> rear hook",
+        "category": "Counter",
+        "subcategory": "Roll counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-076",
+        "technique": "Outside slip -> rear straight",
+        "category": "Counter",
+        "subcategory": "Straight counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-026",        "technique": "Body elbow block",
+        "category": "Defense",
+        "subcategory": "Body block",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-075",
+        "technique": "Step-off-line catch",
+        "category": "Defense",
+        "subcategory": "Catch / angle",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-072",
+        "technique": "Double slip",
+        "category": "Defense",
+        "subcategory": "Head movement",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-071",
+        "technique": "Double-end slip",
+        "category": "Defense",
+        "subcategory": "Head movement",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-022",
+        "technique": "Inside slip",
+        "category": "Defense",
+        "subcategory": "Head movement",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-023",
+        "technique": "Roll / weave under hook",
+        "category": "Defense",
+        "subcategory": "Head movement",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-067",
+        "technique": "Cross-arm hook block",
+        "category": "Defense",
+        "subcategory": "Hook block",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-070",
+        "technique": "Inside clinch frame",
+        "category": "Defense",
+        "subcategory": "Inside control",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-069",
+        "technique": "Smother straight punches",
+        "category": "Defense",
+        "subcategory": "Inside defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-020",
+        "technique": "Rear-hand parry",
+        "category": "Defense",
+        "subcategory": "Parry",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-007",
+        "technique": "Pivot",
+        "category": "Footwork",
+        "subcategory": "Angle",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "BOX-044",
+        "technique": "Lead-side pivot",
+        "category": "Footwork",
+        "subcategory": "Angle creation",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-045",
+        "technique": "Rear-side pivot",
+        "category": "Footwork",
+        "subcategory": "Angle creation",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-049",
+        "technique": "Shuffle entry",
+        "category": "Footwork",
+        "subcategory": "Entry",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-047",
+        "technique": "V-step entry",
+        "category": "Footwork",
+        "subcategory": "Entry",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-008",
+        "technique": "Angle exit after punching",
+        "category": "Footwork",
+        "subcategory": "Exit",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "BOX-046",
+        "technique": "L-step exit",
+        "category": "Footwork",
+        "subcategory": "Exit",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-050",
+        "technique": "Drop step",
+        "category": "Footwork",
+        "subcategory": "Power / positioning",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-048",
+        "technique": "Pendulum step",
+        "category": "Footwork",
+        "subcategory": "Range movement",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-102",
+        "technique": "Head position in close range",
+        "category": "Inside fighting",
+        "subcategory": "Head / shoulder control",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-103",
+        "technique": "Shoulder-to-chest inside control",
+        "category": "Inside fighting",
+        "subcategory": "Positioning",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-104",
+        "technique": "Short hook from inside frame",
+        "category": "Inside fighting",
+        "subcategory": "Short punch",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-105",
+        "technique": "Short uppercut from inside frame",
+        "category": "Inside fighting",
+        "subcategory": "Short punch",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-062",
+        "technique": "Rear hook to body",
+        "category": "Punch",
+        "subcategory": "Body hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-065",
+        "technique": "Lead uppercut to body",
+        "category": "Punch",
+        "subcategory": "Body uppercut",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-066",
+        "technique": "Rear uppercut to body",
+        "category": "Punch",
+        "subcategory": "Body uppercut",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-014",
+        "technique": "Rear hook",
+        "category": "Punch",
+        "subcategory": "Hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-058",
+        "technique": "Jab while stepping back",
+        "category": "Punch",
+        "subcategory": "Jab / retreat",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-057",
+        "technique": "Triple jab",
+        "category": "Punch",
+        "subcategory": "Jab series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-055",
+        "technique": "Power jab",
+        "category": "Punch",
+        "subcategory": "Jab variation",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-056",
+        "technique": "Up jab",
+        "category": "Punch",
+        "subcategory": "Jab variation",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-060",
+        "technique": "Rear overhand",
+        "category": "Punch",
+        "subcategory": "Overhand",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-063",
+        "technique": "Lead shovel hook to body",
+        "category": "Punch",
+        "subcategory": "Shovel hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-064",
+        "technique": "Rear shovel hook to body",
+        "category": "Punch",
+        "subcategory": "Shovel hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-010",
+        "technique": "Jab to body",
+        "category": "Punch",
+        "subcategory": "Straight",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-059",
+        "technique": "Rear straight to body",
+        "category": "Punch",
+        "subcategory": "Straight body punch",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-011",
+        "technique": "Double jab",
+        "category": "Punch",
+        "subcategory": "Straight series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-015",
+        "technique": "Lead uppercut",
+        "category": "Punch",
+        "subcategory": "Uppercut",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-016",
+        "technique": "Rear uppercut",
+        "category": "Punch",
+        "subcategory": "Uppercut",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-037",
+        "technique": "Feinting",
+        "category": "Tactics",
+        "subcategory": "Deception",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "tactics"
+        ]
+      },
+      {
+        "technique_id": "BOX-108",
+        "technique": "Level-change feint",
+        "category": "Tactics",
+        "subcategory": "Feint",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-109",
+        "technique": "Shoulder feint",
+        "category": "Tactics",
+        "subcategory": "Feint",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "technique_id": "BOX-099",
+        "technique": "Lead uppercut -> rear straight -> lead hook",
+        "category": "Combination",
+        "subcategory": "Inside chain",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-098",
+        "technique": "Rear uppercut -> lead hook -> cross",
+        "category": "Combination",
+        "subcategory": "Inside-to-outside",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-096",
+        "technique": "Jab -> cross -> roll -> lead hook",
+        "category": "Combination",
+        "subcategory": "Offense-defense chain",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",
+          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-087",
+        "technique": "Lead hook counter to rear straight",
+        "category": "Counter",
+        "subcategory": "Hook counter",
+        "aics_level": "Advanced",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Generate force from the floor through hip/shoulder rotation, not an arm swing.",
+          "Keep head controlled over the base and the opposite hand responsible.",
+          "Recover to stance without over-rotating."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-034",
+        "technique": "Check hook",
+        "category": "Counter",
+        "subcategory": "Hook/angle",
+        "aics_level": "Advanced",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "counter"
+        ]
+      },
+      {
+        "technique_id": "BOX-086",
+        "technique": "Rear straight inside opponent jab",
+        "category": "Counter",
+        "subcategory": "Jab counter",
+        "aics_level": "Advanced",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Drive directly from guard without loading.",
+          "Keep rear hand/head protected and recover the lead hand on the same line.",          "Finish balanced enough to move, defend or chain immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-035",
+        "technique": "Pull counter",
+        "category": "Counter",
+        "subcategory": "Straight counter",
+        "aics_level": "Advanced",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "counter"
+        ]
+      },
+      {
+        "technique_id": "BOX-078",
+        "technique": "Inside slip -> rear uppercut",
+        "category": "Counter",
+        "subcategory": "Uppercut counter",
+        "aics_level": "Advanced",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-088",
+        "technique": "Rear uppercut counter to body entry",
+        "category": "Counter",
+        "subcategory": "Uppercut counter",
+        "aics_level": "Advanced",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-040",
+        "technique": "Inside-frame exit",
+        "category": "Defense",
+        "subcategory": "Close-range exit",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-027",
+        "technique": "Pull-back defence",
+        "category": "Defense",
+        "subcategory": "Distance",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-028",
+        "technique": "Shoulder-roll defence",
+        "category": "Defense",
+        "subcategory": "Elite variant",
+        "aics_level": "Advanced",
+        "record_type": "Elite variant",
+        "evidence_grade": "C",
+        "canonical_status": "Elite variant",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "BOX-074",
+        "technique": "Roll-pivot exit",
+        "category": "Defense",
+        "subcategory": "Head movement / exit",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-073",
+        "technique": "Slip-roll sequence",
+        "category": "Defense",
+        "subcategory": "Head movement chain",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-117",
+        "technique": "Peekaboo weave -> hook counter",
+        "category": "Elite system",
+        "subcategory": "Peekaboo counter",
+        "aics_level": "Advanced",
+        "record_type": "Elite variant",
+        "evidence_grade": "C",
+        "canonical_status": "Elite variant",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-09",
+          "SRC-BOX-07",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://dynamicstriking.com/collections/video/products/the-peekaboo-style-of-boxing-by-teddy-atlas",
+          "https://dynamicstriking.com/blogs/news/free-technique-mike-tyson-gifts-you-a-free-technique-from-his-instructional",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-116",
+        "technique": "Peekaboo weave entry",
+        "category": "Elite system",
+        "subcategory": "Peekaboo entry",
+        "aics_level": "Advanced",
+        "record_type": "Elite variant",
+        "evidence_grade": "C",
+        "canonical_status": "Elite variant",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use the smallest movement that clears or redirects the attack.",
+          "Keep feet under the body and eyes on the opponent.",
+          "Recover into an immediate counter or exit rather than posing."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-09",
+          "SRC-BOX-07",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://dynamicstriking.com/collections/video/products/the-peekaboo-style-of-boxing-by-teddy-atlas",
+          "https://dynamicstriking.com/blogs/news/free-technique-mike-tyson-gifts-you-a-free-technique-from-his-instructional",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-115",
+        "technique": "Peekaboo shift left-right",
+        "category": "Elite system",
+        "subcategory": "Peekaboo movement",
+        "aics_level": "Advanced",
+        "record_type": "Elite variant",
+        "evidence_grade": "C",
+        "canonical_status": "Elite variant",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-09",
+          "SRC-BOX-07",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://dynamicstriking.com/collections/video/products/the-peekaboo-style-of-boxing-by-teddy-atlas",
+          "https://dynamicstriking.com/blogs/news/free-technique-mike-tyson-gifts-you-a-free-technique-from-his-instructional",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-051",
+        "technique": "Cut-off step",
+        "category": "Footwork",
+        "subcategory": "Ring cutting",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-052",
+        "technique": "Corner escape pivot",
+        "category": "Footwork",
+        "subcategory": "Ring escape",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-053",
+        "technique": "Stance switch under control",
+        "category": "Footwork",
+        "subcategory": "Stance transition",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "C",
+        "canonical_status": "Elite variant",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-106",
+        "technique": "Inside pivot exit",
+        "category": "Inside fighting",
+        "subcategory": "Exit",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-017",
+        "technique": "Shovel hook",
+        "category": "Punch",
+        "subcategory": "Hybrid",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Keep the path compact and connect legs/hips/torso to the punch.",
+          "Maintain wrist/elbow alignment and opposite-side protection.",
+          "Do not widen the arc or sacrifice balance for power."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "BOX-114",
+        "technique": "Southpaw-vs-orthodox lead-foot angle",
+        "category": "Tactics",
+        "subcategory": "Open-stance positioning",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-036",
+        "technique": "Ring cutting",
+        "category": "Tactics",
+        "subcategory": "Pressure footwork",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "tactics"
+        ]
+      },
+      {
+        "technique_id": "BOX-113",
+        "technique": "Rope escape by pivot",
+        "category": "Tactics",
+        "subcategory": "Ring escape",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Move the feet before the torso outruns the base.",
+          "Avoid crossing feet unless the specific advanced action requires it.",
+          "End in a stance that can punch and defend immediately."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-112",
+        "technique": "Pressure without chasing",
+        "category": "Tactics",
+        "subcategory": "Ring positioning",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-06",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/products/footwork-boxings-transit-system-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "BOX-038",
+        "technique": "Rhythm change",
+        "category": "Tactics",
+        "subcategory": "Timing",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "tactics"
+        ]
+      },
+      {
+        "technique_id": "BOX-039",
+        "technique": "Double-end rhythm entry",
+        "category": "Tactics",
+        "subcategory": "Timing/entry",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Stance and guard"
+        ],
+        "rules_safety": "Use current boxing rules; training contact should be scaled to athlete experience and protective-equipment requirements.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-05",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/the-fundamentals-of-boxing-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking",
+          "tactics"
+        ]
+      },
+      {
+        "technique_id": "BOX-110",
+        "technique": "Draw-and-counter",
+        "category": "Tactics",
+        "subcategory": "Trap setting",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Preserve stance, vision and defensive responsibility.",
+          "Use the action to create a measurable positional or scoring advantage.",
+          "Reset or transition immediately after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Boxing rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-BOX-02",
+          "SRC-BOX-08",
+          "SRC-BOX-04"
+        ],
+        "source_urls": [
+          "https://www.englandboxing.org/wp-content/uploads/2022/03/Level-2-Coaching-Handbook-compressed.pdf",
+          "https://dynamicstriking.com/collections/all/products/intelligence-the-art-of-counter-punching-by-teddy-atlas",
+          "https://worldboxing.org/competitions/general-competition-documents/"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",          "striking"
+        ]
+      }
+    ]
+  }
+}
