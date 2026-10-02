@@ -1,59 +1,119 @@
 # Technique Database Methodology
 
-## Purpose
+## 1. One discipline, one database
 
-The technique database is discipline-separated. The Fighting Matrix connects techniques across disciplines later; it does not redefine the source disciplines.
+AICS does not maintain a combined technique register. Boxing, Muay Thai, Kickboxing/K-1, Freestyle Wrestling, Greco-Roman Wrestling, Folkstyle Wrestling, Judo, and Brazilian Jiu-Jitsu each own an independent canonical database.
 
-## Inclusion standard
+The Fighting Matrix may reference records across those databases, but it never changes a discipline's native technical identity.
 
-A technique must be supported by a recognized governing-body curriculum, classification or current rules framework and/or repeated elite-level direct instruction and competition validation. A single athlete's stylistic preference is not sufficient to make a technique canonical.
+## 2. No quota / no filler
 
-## Evidence grades
+There is no minimum or target number of techniques.
 
-- **A — Canonical:** governing-body or official technical framework plus strong elite/competition consistency.
-- **B — Competition-proven:** established, rules-compatible technique supported by multiple elite/systematic sources where no complete governing-body syllabus exists.
+A record is included only when all of the following are true:
+
+1. The technique has a distinct technical purpose rather than being a renamed duplicate.
+2. Its mechanics can be supported by a recognized technical authority and/or convergent elite-level instruction and competition use.
+3. It is demonstrably effective within the discipline or a clearly identified specialist/elite variant.
+4. Current rules and safety implications are documented.
+5. Its prerequisites and progression level can be defended.
+6. Its best-practice cues describe repeatable mechanics rather than personal preference.
+
+A database grows only when new material passes those gates.
+
+## 3. Evidence grades
+
+- **A — Canonical:** governing-body, Kodokan, or other official technical framework plus strong competition/elite consistency.
+- **B — Competition-proven:** established, rules-compatible technique supported by convergent elite/systematic sources where no complete official syllabus exists.
 - **C — Elite variant:** proven and mechanically coherent, but style-dependent rather than a universal default.
-- **D — Historical/specialized:** legitimate reference material but not part of default lesson generation.
+- **D — Historical/specialized:** legitimate reference material but excluded from normal lesson generation.
 
-Default curriculum generation uses A and B. C is reserved for advanced variants. D is reference-only.
+Default curriculum generation uses A and B. C is an advanced optional variant. D is reference-only.
 
-## Progression levels
+## 4. Beginner → intermediate → advanced
 
-- **Beginner:** low prerequisite burden, foundational mechanics and positions.
-- **Intermediate:** requires established fundamentals, timing, chaining or reaction awareness.
-- **Advanced:** higher coordination, reaction dependence, positional risk, rules complexity or specialist execution.
+**Beginner**
+- foundation, stance, posture, movement, safety
+- core attacks/defences/positions
+- low prerequisite burden
+- mechanics that must exist before chaining or specialization
 
-These are AICS pedagogical levels, not official belt or rank equivalents unless a governing curriculum explicitly defines the progression.
+**Intermediate**
+- reliable use of fundamentals under reaction
+- combinations, counters, transitions, positional chains
+- increased timing, decision-making, and prerequisite requirements
 
-## Technique records
+**Advanced**
+- specialist systems and variants
+- multi-step reaction chains
+- high-coordination or high-timing techniques
+- rules-sensitive or elevated-risk material
+- verified elite variants that should not be universal beginner doctrine
 
-Each technique stores:
+These are AICS pedagogical levels, not official belt/rank substitutions.
+
+## 5. Technique record contract
+
+Every active record contains:
 
 - stable technique ID
 - discipline
-- category and subcategory
+- technique name
+- category / subcategory
 - AICS level
 - record type
 - evidence grade
 - canonical status
-- best-practice note
+- effectiveness basis
+- best-practice cue set
 - prerequisites
-- rules and safety constraints
-- primary source
-- elite validation source where applicable
+- rules/safety requirements
+- source IDs and URLs
+- verification status and basis
+- last rules/source review date
 - Fighting Matrix tags
-- rules-review date
 
-## Rules doctrine
+## 6. Source hierarchy
 
-Rules change. Legality-sensitive techniques must be checked against the current ruleset when lessons are generated or updated. Restricted or historical techniques remain in the taxonomy but are excluded from normal curriculum progression.
+Use the strongest available evidence in this order:
 
-## Elite-method doctrine
+1. current governing-body rules, curricula, classifications, and technical education
+2. recognized institutional technical standards
+3. direct instruction from historically/competitively elite practitioners and elite coaches
+4. repeated high-level competition use
+5. peer-reviewed biomechanics, injury, motor-learning, or technical-tactical research where relevant
 
-Elite practitioners are used to validate execution, application, timing and variants. Fame or competitive success alone does not override governing-body safety, current rules, or convergent technical evidence.
+A single famous athlete's preference is not sufficient to create universal doctrine.
 
-## Current disciplines
+## 7. Effectiveness standard
 
-Boxing, Muay Thai, Kickboxing/K-1, Freestyle Wrestling, Greco-Roman Wrestling, Folkstyle Wrestling, Judo and Brazilian Jiu-Jitsu.
+"Effective" means the technique has a defensible competitive or technical role in its native discipline. It does not mean every athlete should use it.
 
-MMA is reserved as an integration layer using IMMAF and related rules/technical frameworks rather than replacing the source disciplines.
+Specialist techniques remain specialist records. Athlete morphology, stance, ruleset, strategic system, and prerequisite competency may determine whether a verified technique is appropriate.
+
+## 8. Rules and safety
+
+Rules change. Every discipline database carries the applicable current rules source, and legality-sensitive records must be reviewed when rules change.
+
+Restricted or historical techniques may remain for taxonomy/research but must be marked and excluded from normal progression. Joint locks, chokes, throws, head-impact work, and other higher-risk material require discipline-appropriate supervision and progressive practice.
+
+## 9. Quality control
+
+Before promotion into a canonical database, automated validation checks:
+
+- valid schema and discipline
+- unique technique IDs
+- unique technique names within the discipline
+- correct beginner/intermediate/advanced placement
+- source references resolve
+- current rules source is attached
+- verification status is present
+- effectiveness basis is present
+- best-practice cues are substantive
+- safety/rules field is non-empty
+
+Automated validation does not replace technical review; it prevents structural and provenance failures.
+
+## 10. Current scope
+
+The eight discipline databases are the source layer. MMA/IMMAF material is reserved for the integration layer: striking-to-clinch, strike-to-shot, cage/fence work, takedown-to-control, ground-striking interactions, and other cross-discipline transitions.
