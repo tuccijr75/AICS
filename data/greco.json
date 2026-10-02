@@ -1,0 +1,4130 @@
+{
+  "schema_version": "2.0.0",
+  "database_version": "2026.10.02",
+  "discipline": "Greco-Roman Wrestling",
+  "status": "active",
+  "quality_policy": {
+    "count_target": null,
+    "rule": "No technique is included to meet a numeric quota.",
+    "inclusion": "Each record must have a recognized technical source and/or elite competition/direct-instruction validation, a current rules/safety review, and a distinct technical purpose.",
+    "default_curriculum_evidence": [
+      "A",
+      "B"
+    ],
+    "elite_variants": "C records are verified and effective but style-dependent; they are not universal defaults.",
+    "reference_only": "D records, if present, are reference-only and excluded from normal progression."
+  },
+  "level_definitions": {
+    "beginner": "Foundational actions with low prerequisite burden; balance, safety and repeatable mechanics come first.",
+    "intermediate": "Established fundamentals plus timing, chaining, positional awareness or reaction-based execution.",
+    "advanced": "Higher coordination, reaction dependence, positional risk, rules complexity, specialist execution or elite-system variation."
+  },
+  "counts": {
+    "total": 97,
+    "beginner": 13,
+    "intermediate": 56,
+    "advanced": 28
+  },
+  "sources": [
+    {
+      "source_id": "SRC-WR-01",
+      "discipline": "Wrestling",
+      "source_type": "National governing-body curriculum",
+      "name": "USA Wrestling — Core Curriculum",
+      "url": "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+      "use": "Official Folkstyle Levels 1–3, Olympic Styles Level 1, Freestyle Level 2 and Greco-Roman Level 2."
+    },
+    {
+      "source_id": "SRC-WR-06",
+      "discipline": "Greco-Roman Wrestling",
+      "source_type": "International federation / elite validation",
+      "name": "UWW — Greco-Roman fundamentals",
+      "url": "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+      "use": "UWW technical context for upper-body attacks and par-terre actions."
+    },
+    {
+      "source_id": "SRC-WR-02",
+      "discipline": "Wrestling",
+      "source_type": "Rules",
+      "name": "USA Wrestling — Rule Book & Guide",
+      "url": "https://www.usawmembership.com/usa_wrestling_rule_book",
+      "use": "Current freestyle/Greco rule guide; UWW official rules supersede it internationally."
+    },
+    {
+      "source_id": "SRC-WR-07",
+      "discipline": "Greco-Roman Wrestling",
+      "source_type": "Elite competition validation",
+      "name": "UWW — Reverse Lift / Tawaragaeshi",
+      "url": "https://cms.uww.org/article/watch-shiotanis-signature-move-reverse-lift-or-tawaragaeshi",
+      "use": "Elite competition validation of reverse-lift mechanics."
+    },
+    {
+      "source_id": "SRC-WR-14",
+      "discipline": "Greco-Roman Wrestling",
+      "source_type": "Elite direct instruction",
+      "name": "Matt Lindland — Olympian Level Greco-Roman Wrestling",
+      "url": "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+      "use": "Greco stance, motion, hand fighting, two-on-one, underhook, throws, gut wrenches and lifts."
+    },
+    {
+      "source_id": "SRC-WR-13",
+      "discipline": "Greco-Roman Wrestling",
+      "source_type": "Elite direct instruction",
+      "name": "Adam Wheeler — The Greco Blueprint",
+      "url": "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+      "use": "Arm/head throws, body locks, two-on-one attacks, front headlock, gut wrench and lifts from an Olympic medalist."
+    },
+    {
+      "source_id": "SRC-WR-03",
+      "discipline": "Wrestling",
+      "source_type": "International federation education",
+      "name": "United World Wrestling — Coach Education Pathway",
+      "url": "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+      "use": "Structured grassroots-to-elite coach education."
+    }
+  ],
+  "techniques": {
+    "beginner": [
+      {
+        "technique_id": "GR-002",
+        "technique": "Pummeling",
+        "category": "Clinch",
+        "subcategory": "Hand fighting",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-005",
+        "technique": "Single underhook",
+        "category": "Clinch",
+        "subcategory": "Underhook",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-068",
+        "technique": "Defend arm drag",
+        "category": "Defense",
+        "subcategory": "Arm-drag defense",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-072",
+        "technique": "Underhook pummel recovery",
+        "category": "Defense",
+        "subcategory": "Underhook recovery",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-029",
+        "technique": "Circle motion",
+        "category": "Foundation",
+        "subcategory": "Motion",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-030",
+        "technique": "Elevation change",
+        "category": "Foundation",
+        "subcategory": "Motion",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-001",
+        "technique": "Greco-Roman stance",
+        "category": "Foundation",
+        "subcategory": "Stance",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-031",
+        "technique": "Back step",
+        "category": "Foundation",
+        "subcategory": "Throw footwork",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-078",
+        "technique": "Gut wrench — standard lock",
+        "category": "Par terre",
+        "subcategory": "Gut wrench",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-017",
+        "technique": "Gut wrench",
+        "category": "Par terre",
+        "subcategory": "Turn",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-026",
+        "technique": "Par-terre bottom square / heavy",
+        "category": "Par terre defence",
+        "subcategory": "Base",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-089",
+        "technique": "Par-terre bottom: elbows in / hips heavy",
+        "category": "Par terre defense",
+        "subcategory": "Base",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-033",
+        "technique": "Pummel to inside control",
+        "category": "Setup",
+        "subcategory": "Pummeling",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "technique_id": "GR-046",
+        "technique": "Arm drag -> rear body lock",
+        "category": "Chain wrestling",
+        "subcategory": "Arm drag",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-065",
+        "technique": "Pummel -> arm throw",
+        "category": "Chain wrestling",
+        "subcategory": "Pummel to throw",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-064",
+        "technique": "Pummel -> hip throw",
+        "category": "Chain wrestling",
+        "subcategory": "Pummel to throw",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-047",
+        "technique": "Slide-by -> body lock",
+        "category": "Chain wrestling",
+        "subcategory": "Slide-by",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-062",
+        "technique": "Snapdown -> front headlock",
+        "category": "Chain wrestling",
+        "subcategory": "Snapdown",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-066",
+        "technique": "Underhook -> slide-by",
+        "category": "Chain wrestling",
+        "subcategory": "Underhook",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-003",
+        "technique": "Pummel to arm drag",
+        "category": "Clinch",
+        "subcategory": "Arm drag",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-004",
+        "technique": "Pummel to arm drag with inside step",
+        "category": "Clinch",
+        "subcategory": "Arm drag",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-027",
+        "technique": "Underhook -> body lock",
+        "category": "Clinch",
+        "subcategory": "Body lock",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {        "technique_id": "GR-007",
+        "technique": "Push-pull hand fighting",
+        "category": "Clinch",
+        "subcategory": "Pressure",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-006",
+        "technique": "Double underhooks",
+        "category": "Clinch",
+        "subcategory": "Underhooks",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-070",
+        "technique": "Defend body lock",
+        "category": "Defense",
+        "subcategory": "Body-lock defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-071",
+        "technique": "Defend rear body lock",
+        "category": "Defense",
+        "subcategory": "Rear body-lock defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-069",
+        "technique": "Defend slide-by",
+        "category": "Defense",
+        "subcategory": "Slide-by defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-015",
+        "technique": "Defend hiplock",
+        "category": "Defense",
+        "subcategory": "Throw defence",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-074",
+        "technique": "Arm throw defense",
+        "category": "Defense",
+        "subcategory": "Throw defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-073",
+        "technique": "Head-and-arm throw defense",
+        "category": "Defense",
+        "subcategory": "Throw defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-013",
+        "technique": "Defend double underhooks",
+        "category": "Defense",
+        "subcategory": "Underhook defence",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-014",
+        "technique": "Defend single underhook",
+        "category": "Defense",
+        "subcategory": "Underhook defence",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-032",
+        "technique": "Back arch",
+        "category": "Foundation",
+        "subcategory": "Throw mechanics",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-020",
+        "technique": "Arm-bar turn — part 1",
+        "category": "Par terre",
+        "subcategory": "Arm control",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-087",
+        "technique": "Arm-bar turn",
+        "category": "Par terre",
+        "subcategory": "Arm control turn",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-079",
+        "technique": "Gut wrench — low lock",
+        "category": "Par terre",
+        "subcategory": "Gut wrench",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-022",
+        "technique": "Reverse lift from knees",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-07",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://cms.uww.org/article/watch-shiotanis-signature-move-reverse-lift-or-tawaragaeshi",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-018",
+        "technique": "High gut wrench",
+        "category": "Par terre",
+        "subcategory": "Turn",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-019",
+        "technique": "Mid gut wrench",
+        "category": "Par terre",
+        "subcategory": "Turn",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-025",
+        "technique": "Fight the gut-wrench lock",
+        "category": "Par terre defence",
+        "subcategory": "Defence",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-091",
+        "technique": "Gut-wrench hip walk defense",
+        "category": "Par terre defense",
+        "subcategory": "Gut wrench defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-090",
+        "technique": "Gut-wrench lock prevention",
+        "category": "Par terre defense",
+        "subcategory": "Gut wrench defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-092",
+        "technique": "Lift defense: widen base / hand fight",
+        "category": "Par terre defense",
+        "subcategory": "Lift defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-035",
+        "technique": "2-on-1 arm drag",
+        "category": "Setup",
+        "subcategory": "Arm drag",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-043",
+        "technique": "Double-underhook body lock",
+        "category": "Setup",
+        "subcategory": "Body lock",
+        "aics_level": "Intermediate",
+        "record_type": "Position",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-044",
+        "technique": "Over-under body lock",
+        "category": "Setup",
+        "subcategory": "Body lock",
+        "aics_level": "Intermediate",
+        "record_type": "Position",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-045",
+        "technique": "Rear body lock",
+        "category": "Setup",
+        "subcategory": "Body lock",
+        "aics_level": "Intermediate",
+        "record_type": "Position",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-038",
+        "technique": "2-on-1 -> front headlock",
+        "category": "Setup",
+        "subcategory": "Front headlock",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-037",
+        "technique": "2-on-1 reach-around go-behind",
+        "category": "Setup",
+        "subcategory": "Go-behind",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-040",
+        "technique": "Overhook control",
+        "category": "Setup",
+        "subcategory": "Overhook",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-036",
+        "technique": "2-on-1 slide-by",
+        "category": "Setup",
+        "subcategory": "Slide-by",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-041",
+        "technique": "Underhook snapdown",
+        "category": "Setup",
+        "subcategory": "Snapdown",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-042",
+        "technique": "Underhook throw-by",
+        "category": "Setup",
+        "subcategory": "Throw-by",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-034",
+        "technique": "2-on-1 control",
+        "category": "Setup",
+        "subcategory": "Two-on-one",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-039",
+        "technique": "Wrist control -> underhook",
+        "category": "Setup",
+        "subcategory": "Underhook entry",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-094",
+        "technique": "Stand-up pressure for step-out",
+        "category": "Tactics",
+        "subcategory": "Boundary scoring",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Build a stable base before exposing hips or hands.",
+          "Clear the opponent's primary control before turning.",
+          "Finish facing or separating into a legal neutral position."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-02",
+          "SRC-WR-03"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_rule_book",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-095",
+        "technique": "Center pummel control",
+        "category": "Tactics",
+        "subcategory": "Positioning",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-02",
+          "SRC-WR-14"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_rule_book",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-096",
+        "technique": "Chest-to-chest pressure walking",
+        "category": "Tactics",
+        "subcategory": "Pressure",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-012",
+        "technique": "Slide-by",
+        "category": "Takedown",
+        "subcategory": "Angle",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-011",
+        "technique": "Arm throw",
+        "category": "Takedown",
+        "subcategory": "Arm throw",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-052",
+        "technique": "Arm throw — standard back-step",
+        "category": "Takedown",
+        "subcategory": "Arm throw",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-057",
+        "technique": "Body-lock step-around throw",
+        "category": "Takedown",
+        "subcategory": "Body lock throw",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-048",
+        "technique": "Front headlock -> go-behind",
+        "category": "Takedown",
+        "subcategory": "Front headlock",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-049",
+        "technique": "Front headlock turn option A",
+        "category": "Takedown",
+        "subcategory": "Front headlock",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-054",
+        "technique": "Head-and-arm throw",
+        "category": "Takedown",
+        "subcategory": "Head and arm",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-008",
+        "technique": "Sag headlock",
+        "category": "Takedown",
+        "subcategory": "Head-and-arm",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-010",
+        "technique": "Hiplock",
+        "category": "Takedown",
+        "subcategory": "Hip throw",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-059",
+        "technique": "Body-lock mat return",
+        "category": "Takedown",
+        "subcategory": "Mat return",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-060",
+        "technique": "Rear body-lock mat return",
+        "category": "Takedown",
+        "subcategory": "Mat return",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "technique_id": "GR-063",
+        "technique": "Arm drag -> body lock throw",
+        "category": "Chain wrestling",
+        "subcategory": "Arm drag",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-067",
+        "technique": "Over-under -> back-step throw",
+        "category": "Chain wrestling",
+        "subcategory": "Body lock",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-016",
+        "technique": "Hiplock defence -> counter offense",
+        "category": "Counter",
+        "subcategory": "Throw counter",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-077",
+        "technique": "Front-headlock counter to body lock",
+        "category": "Counter offense",
+        "subcategory": "Front headlock counter",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-076",
+        "technique": "Hip-to-hip counter throw",
+        "category": "Counter offense",
+        "subcategory": "Throw counter",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-075",
+        "technique": "Body-lock back-arch defense",
+        "category": "Defense",
+        "subcategory": "Throw defense",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-021",
+        "technique": "Arm-bar turn — part 2",
+        "category": "Par terre",
+        "subcategory": "Arm control",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-088",
+        "technique": "Front headlock turn from par terre",
+        "category": "Par terre",
+        "subcategory": "Front headlock",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-081",
+        "technique": "Gut wrench — hip switch turn",
+        "category": "Par terre",
+        "subcategory": "Gut wrench",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-080",
+        "technique": "Gut wrench — step-over turn",
+        "category": "Par terre",
+        "subcategory": "Gut wrench",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-082",
+        "technique": "Gut wrench — chain turns",
+        "category": "Par terre",
+        "subcategory": "Gut wrench chain",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-023",
+        "technique": "Reverse lift from feet",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-07",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://cms.uww.org/article/watch-shiotanis-signature-move-reverse-lift-or-tawaragaeshi",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-083",
+        "technique": "Reverse lift — standard",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-07",
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://cms.uww.org/article/watch-shiotanis-signature-move-reverse-lift-or-tawaragaeshi",
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-084",
+        "technique": "Reverse lift — tilt finish",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-024",
+        "technique": "Straight lift",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-07",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://cms.uww.org/article/watch-shiotanis-signature-move-reverse-lift-or-tawaragaeshi",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "GR-085",
+        "technique": "Straight lift — standard",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-086",
+        "technique": "Straight lift — step-out finish",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-093",
+        "technique": "Reverse-lift defense",
+        "category": "Par terre defense",
+        "subcategory": "Lift defense",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-097",
+        "technique": "Hand-fight -> throw reaction chain",
+        "category": "Tactics",
+        "subcategory": "Reaction chain",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-053",
+        "technique": "Arm throw — inside-step variation",
+        "category": "Takedown",
+        "subcategory": "Arm throw",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-028",
+        "technique": "Body-lock turn / mat return",
+        "category": "Takedown",
+        "subcategory": "Body lock",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-056",
+        "technique": "Body-lock back-arch throw",
+        "category": "Takedown",
+        "subcategory": "Body lock throw",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-050",
+        "technique": "Front headlock turn option B",
+        "category": "Takedown",
+        "subcategory": "Front headlock",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-051",
+        "technique": "Front headlock turn option C",
+        "category": "Takedown",
+        "subcategory": "Front headlock",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-009",
+        "technique": "Reverse headlock",
+        "category": "Takedown",
+        "subcategory": "Head-and-arm",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Greco-Roman stance / hand fighting"
+        ],
+        "rules_safety": "No leg attacks in Greco-Roman. Use current UWW/USA Wrestling scoring and safety rules.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-06",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/article/wrestling-101-origins-and-facts-about-greco-roman-wrestling",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "greco",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "GR-055",
+        "technique": "Pinch headlock",
+        "category": "Takedown",
+        "subcategory": "Headlock",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-061",
+        "technique": "Wheeler whip throw",
+        "category": "Takedown",
+        "subcategory": "Two-on-one throw",
+        "aics_level": "Advanced",
+        "record_type": "Elite variant",
+        "evidence_grade": "C",
+        "canonical_status": "Elite variant",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-13",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/the-greco-blueprint-by-adam-wheeler",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "GR-058",
+        "technique": "Body-lock outside trip",
+        "category": "Takedown",
+        "subcategory": "Upper-body trip",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Greco-Roman Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-14",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/olympian-level-greco-roman-wrestling-by-matt-lindland",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "clinch",
+          "wrestling"
+        ]
+      }
+    ]
+  }
+}
