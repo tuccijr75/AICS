@@ -1,0 +1,69 @@
+{
+  "handoff_schema": 1,
+  "product": "AICS",
+  "purpose": "Current legacy app state for ingestion by the ongoing repository conversion",
+  "branch": "handoff/aics-1.9.5-current-app",
+  "isolation": {
+    "base_commit": "fc49cf3e4ddf7314f87b0e02bed1b25899be441d",
+    "touches_main": false,
+    "open_pr": false,
+    "merge_requested": false
+  },
+  "legacy_release": {
+    "version": "1.9.5",
+    "artifact": "AICS195.zip",
+    "artifact_size_bytes": 1242972,
+    "sha256": "ff399292a810929aa7304ff991382057b4d0a853d90cc27bd369cec75138e2b1",
+    "storage_namespace": "aics.v4.",
+    "release_gate": {
+      "passed": 222,
+      "total": 222
+    }
+  },
+  "canonical_counts": {
+    "lessons": 400,
+    "curriculum_techniques": 97,
+    "biomechanics_techniques": 97,
+    "assessments": 40,
+    "quizzes": 400,
+    "modules": 61,
+    "belts": 8,
+    "fight_camp_techniques": 31,
+    "fight_camp_biomechanics_crosswalks": 31
+  },
+  "stable_ids": {
+    "lesson_range": [
+      "AICS-001",
+      "AICS-400"
+    ],
+    "preserve_semantics": true
+  },
+  "new_repo_architecture": {
+    "source_disciplines_are_independent": true,
+    "aics_platform_is_shared_infrastructure": true,
+    "aics_method_is_separate_first_party_method": true,
+    "fighting_matrix_is_cross_discipline_integration_layer": true,
+    "do_not_flatten_method_into_source_disciplines": true
+  },
+  "post_release_requirements": {
+    "physics_first": true,
+    "multidisciplinary_best_of_verified_disciplines": true,
+    "reaction_state_mechanics_required": true,
+    "coaching_directive_required": true,
+    "resistance_certification_of_all_97_not_yet_complete": true
+  },
+  "migration_precedence": [
+    "current repository doctrine and verified source-discipline data",
+    "AICS v1.9.5 behavioral contracts",
+    "legacy AICS Method stable IDs/content",
+    "post-v1.9.5 coaching/physics directives",
+    "older artifacts for provenance/compatibility only"
+  ],
+  "source_hashes": {
+    "source-data/core.json": "044a142a3dcaea5cd704bbe54a1144e51785c2c71116be2e31e23e81467ac922",
+    "source-data/biomechanics.json": "ed7b7e1238b5b4b467d59daca1b41cd960461870c2f643d0425118b6cc53ee50",
+    "aics-app.js": "ea67aae7d0a5f6143000abcd64ae626907dfead3b99777cf6315fb26d91592f6",
+    "aics-data.js": "a438da5071d9609253b8a30602eaf3fd05427c9e4bc4aeb725df6752223c6f68",
+    "aics-biomechanics.js": "b91ef858172ad3069c710fd5bc027e8357852881293542d6573150043c80f7c3"
+  }
+}
