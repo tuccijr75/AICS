@@ -1,59 +1,74 @@
 {
-  "schema_version": "1.0",
-  "generated": "2026-10-02",
-  "doctrine": {
-    "discipline_separated": true,
-    "fighting_matrix_is_integration_layer": true,
-    "default_curriculum_evidence": [
-      "A",
-      "B"
-    ],
-    "elite_variant_evidence": "C",
-    "reference_only_evidence": "D",
-    "rules_runtime_check_required": true
-  },
-  "files": [
+  "schema_version": "2.0.0",
+  "database_version": "2026.10.02",
+  "architecture": "discipline-separated",
+  "aggregate_database": false,
+  "quality_policy": "No numeric quota. Each discipline grows only when a technique passes verification and best-practice review.",
+  "databases": [
     {
       "discipline": "Boxing",
       "path": "data/boxing.json",
-      "count": 40
+      "total": 117,
+      "beginner": 25,
+      "intermediate": 63,
+      "advanced": 29
     },
     {
-      "discipline": "Brazilian Jiu-Jitsu",
-      "path": "data/brazilian-jiu-jitsu.json",
-      "count": 66
+      "discipline": "Muay Thai",
+      "path": "data/muaythai.json",
+      "total": 141,
+      "beginner": 37,
+      "intermediate": 66,
+      "advanced": 38
     },
     {
-      "discipline": "Folkstyle Wrestling",
-      "path": "data/folkstyle-wrestling.json",
-      "count": 64
+      "discipline": "Kickboxing / K-1",
+      "path": "data/kickboxing.json",
+      "total": 103,
+      "beginner": 27,
+      "intermediate": 56,
+      "advanced": 20
     },
     {
       "discipline": "Freestyle Wrestling",
-      "path": "data/freestyle-wrestling.json",
-      "count": 32
+      "path": "data/freestyle.json",
+      "total": 111,
+      "beginner": 20,
+      "intermediate": 60,
+      "advanced": 31
     },
     {
       "discipline": "Greco-Roman Wrestling",
-      "path": "data/greco-roman-wrestling.json",
-      "count": 28
+      "path": "data/greco.json",
+      "total": 97,
+      "beginner": 13,
+      "intermediate": 56,
+      "advanced": 28
+    },
+    {
+      "discipline": "Folkstyle Wrestling",
+      "path": "data/folkstyle.json",
+      "total": 144,
+      "beginner": 28,
+      "intermediate": 72,
+      "advanced": 44
     },
     {
       "discipline": "Judo",
       "path": "data/judo.json",
-      "count": 100
+      "total": 138,
+      "beginner": 29,
+      "intermediate": 56,
+      "advanced": 53
     },
     {
-      "discipline": "Kickboxing / K-1",
-      "path": "data/kickboxing-k-1.json",
-      "count": 34
-    },
-    {
-      "discipline": "Muay Thai",
-      "path": "data/muay-thai.json",
-      "count": 44
+      "discipline": "Brazilian Jiu-Jitsu",
+      "path": "data/bjj.json",
+      "total": 245,
+      "beginner": 56,
+      "intermediate": 129,
+      "advanced": 60
     }
   ],
-  "sources_path": "data/sources.json",
-  "total_techniques": 408
+  "total_verified_records": 1096
 }
