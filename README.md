@@ -11,23 +11,26 @@ AICS is being refactored into a multidisciplinary combat-sports training platfor
 
 ## Technique database
 
-The current technique database is stored in:
+Canonical data:
 
-- `data/Techniques.json` — canonical machine-readable source.
-- `data/Techniques.xlsx` — human-review workbook.
+- `data/Techniques.json` — complete machine-readable technique database.
+- `data/index.json` — coverage/index metadata.
+- `data/sources.json` — source registry.
 
 Current v1.0 coverage:
 
-- Boxing
-- Muay Thai
-- Kickboxing / K-1
-- Freestyle Wrestling
-- Greco-Roman Wrestling
-- Folkstyle Wrestling
-- Judo
-- Brazilian Jiu-Jitsu
+- Boxing — 40
+- Muay Thai — 44
+- Kickboxing / K-1 — 34
+- Freestyle Wrestling — 32
+- Greco-Roman Wrestling — 28
+- Folkstyle Wrestling — 64
+- Judo — 100
+- Brazilian Jiu-Jitsu — 66
 
-Technique records include evidence grade, level, canonical status, best-practice notes, prerequisites, rules/safety constraints, source links, and Fighting Matrix tags.
+Total: **408 techniques**.
+
+Technique records include evidence grade, level, canonical status, best-practice notes, prerequisites, rules/safety constraints, source links, Fighting Matrix tags, and rules-review date.
 
 ## Source doctrine
 
@@ -37,4 +40,4 @@ Restricted, historical, or rules-sensitive techniques remain available for taxon
 
 ## Repository use
 
-This repository is the working and storage source for AICS going forward.
+This repository is the working and storage source for AICS going forward. Material changes should be committed here rather than maintained only in chat artifacts.
