@@ -1,0 +1,4150 @@
+{
+  "schema_version": "2.0.0",
+  "database_version": "2026.10.02",
+  "discipline": "Kickboxing / K-1",
+  "status": "active",
+  "quality_policy": {
+    "count_target": null,
+    "rule": "No technique is included to meet a numeric quota.",
+    "inclusion": "Each record must have a recognized technical source and/or elite competition/direct-instruction validation, a current rules/safety review, and a distinct technical purpose.",
+    "default_curriculum_evidence": [
+      "A",
+      "B"
+    ],
+    "elite_variants": "C records are verified and effective but style-dependent; they are not universal defaults.",
+    "reference_only": "D records, if present, are reference-only and excluded from normal progression."
+  },
+  "level_definitions": {
+    "beginner": "Foundational actions with low prerequisite burden; balance, safety and repeatable mechanics come first.",
+    "intermediate": "Established fundamentals plus timing, chaining, positional awareness or reaction-based execution.",
+    "advanced": "Higher coordination, reaction dependence, positional risk, rules complexity, specialist execution or elite-system variation."
+  },
+  "counts": {
+    "total": 103,
+    "beginner": 27,
+    "intermediate": 56,
+    "advanced": 20
+  },
+  "sources": [
+    {
+      "source_id": "SRC-KB-01",
+      "discipline": "Kickboxing / K-1",
+      "source_type": "International federation rules",
+      "name": "WAKO — Rules Overview",
+      "url": "https://www.wako.sport/de/rules-overview",
+      "use": "Current WAKO rules including K1 Style."
+    },
+    {
+      "source_id": "SRC-KB-02",
+      "discipline": "Kickboxing / K-1",
+      "source_type": "Elite direct instruction",
+      "name": "Ernesto Hoost — Dutch Kickboxing Blueprint",
+      "url": "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost",
+      "use": "Four-time K-1 World Grand Prix champion instruction on fundamentals, counters and punch-kick combinations."
+    }
+  ],
+  "techniques": {
+    "beginner": [
+      {
+        "technique_id": "KB-079",
+        "technique": "Jab -> cross",
+        "category": "Combination",
+        "subcategory": "Punch series",
+        "aics_level": "Beginner",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-080",
+        "technique": "Jab -> cross -> lead hook",
+        "category": "Combination",
+        "subcategory": "Punch series",
+        "aics_level": "Beginner",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-082",
+        "technique": "Jab -> rear low kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick",
+        "aics_level": "Beginner",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-025",
+        "technique": "Punches -> outside low kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick chain",
+        "aics_level": "Beginner",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "KB-071",
+        "technique": "High-kick forearm block",
+        "category": "Defense",
+        "subcategory": "High-kick block",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-021",
+        "technique": "High/middle kick block",
+        "category": "Defense",
+        "subcategory": "Kick defence",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "KB-020",
+        "technique": "Low-kick check",
+        "category": "Defense",
+        "subcategory": "Kick defence",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "KB-067",
+        "technique": "Outside low-kick check",
+        "category": "Defense",
+        "subcategory": "Low-kick check",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-022",
+        "technique": "Jab parry",
+        "category": "Defense",
+        "subcategory": "Punch defence",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "KB-003",
+        "technique": "Backward step",
+        "category": "Footwork",
+        "subcategory": "Linear",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "KB-002",
+        "technique": "Forward step",
+        "category": "Footwork",
+        "subcategory": "Linear",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "KB-035",
+        "technique": "Step-drag advance",
+        "category": "Footwork",
+        "subcategory": "Linear movement",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-036",
+        "technique": "Step-drag retreat",
+        "category": "Footwork",
+        "subcategory": "Linear movement",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-001",
+        "technique": "K-1 stance and guard",
+        "category": "Foundation",
+        "subcategory": "Stance",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "foundation"
+        ]
+      },
+      {
+        "technique_id": "KB-013",
+        "technique": "Middle round kick",
+        "category": "Kick",
+        "subcategory": "Body kick",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-054",
+        "technique": "Lead body kick",
+        "category": "Kick",
+        "subcategory": "Body round kick",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-053",
+        "technique": "Rear body kick",
+        "category": "Kick",
+        "subcategory": "Body round kick",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-052",
+        "technique": "Lead low kick",
+        "category": "Kick",
+        "subcategory": "Low kick",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-011",
+        "technique": "Outside low kick",
+        "category": "Kick",
+        "subcategory": "Low kick",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-051",
+        "technique": "Rear low kick",
+        "category": "Kick",
+        "subcategory": "Low kick",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-016",
+        "technique": "Front kick",
+        "category": "Kick",
+        "subcategory": "Push/front kick",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-007",
+        "technique": "Lead hook",
+        "category": "Punch",
+        "subcategory": "Hook",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "KB-043",
+        "technique": "Double jab",
+        "category": "Punch",
+        "subcategory": "Jab series",
+        "aics_level": "Beginner",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-042",
+        "technique": "Stiff jab",
+        "category": "Punch",
+        "subcategory": "Jab variation",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-006",
+        "technique": "Cross",
+        "category": "Punch",
+        "subcategory": "Straight",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "KB-005",
+        "technique": "Jab",
+        "category": "Punch",
+        "subcategory": "Straight",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "KB-101",
+        "technique": "Jab feint",
+        "category": "Tactics",
+        "subcategory": "Feint",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "technique_id": "KB-087",
+        "technique": "Lead hook body -> rear low kick",
+        "category": "Combination",
+        "subcategory": "Body-to-leg",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-034",
+        "technique": "Jab -> cross -> outside low kick",
+        "category": "Combination",
+        "subcategory": "Dutch combination",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "KB-095",
+        "technique": "Jab feint -> rear body kick",
+        "category": "Combination",
+        "subcategory": "Feint-kick",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-094",
+        "technique": "Jab feint -> rear low kick",
+        "category": "Combination",
+        "subcategory": "Feint-kick",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-093",
+        "technique": "Low kick feint -> cross",
+        "category": "Combination",
+        "subcategory": "Feint-punch",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-097",
+        "technique": "Inside low kick -> cross",
+        "category": "Combination",
+        "subcategory": "Kick-punch",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-098",
+        "technique": "Outside low kick -> cross",
+        "category": "Combination",
+        "subcategory": "Kick-punch",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-092",
+        "technique": "Rear low kick -> jab-cross",
+        "category": "Combination",
+        "subcategory": "Kick-punch",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-088",
+        "technique": "Jab head -> cross body -> lead hook head",
+        "category": "Combination",
+        "subcategory": "Level-change series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-081",
+        "technique": "Jab -> cross -> lead hook -> cross",
+        "category": "Combination",
+        "subcategory": "Punch series",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-086",
+        "technique": "Cross -> lead hook -> rear body kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-083",
+        "technique": "Cross -> lead hook -> rear low kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-084",
+        "technique": "Jab -> cross -> rear body kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-085",
+        "technique": "Jab -> lead hook -> rear body kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-027",
+        "technique": "Double lead hook -> rear middle kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick chain",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "KB-026",
+        "technique": "Lead hook -> rear middle kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick chain",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "KB-029",
+        "technique": "Punches -> knee",
+        "category": "Combination",
+        "subcategory": "Punch-knee chain",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "KB-030",
+        "technique": "Check -> return low kick",
+        "category": "Counter",
+        "subcategory": "Kick counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "counter"
+        ]
+      },
+      {
+        "technique_id": "KB-076",
+        "technique": "Check low kick -> body kick",
+        "category": "Counter",
+        "subcategory": "Kick return",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-075",
+        "technique": "Check low kick -> cross",
+        "category": "Counter",
+        "subcategory": "Kick-to-punch counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-072",
+        "technique": "Outside slip -> cross",
+        "category": "Counter",
+        "subcategory": "Punch counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-073",
+        "technique": "Parry jab -> cross",
+        "category": "Counter",
+        "subcategory": "Punch counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-074",
+        "technique": "Roll hook -> hook",
+        "category": "Counter",
+        "subcategory": "Punch counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-031",
+        "technique": "Step-back -> cross",
+        "category": "Counter",
+        "subcategory": "Punch counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "counter"
+        ]
+      },
+      {
+        "technique_id": "KB-078",
+        "technique": "Step-back -> low kick",
+        "category": "Counter",
+        "subcategory": "Range counter",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-070",
+        "technique": "Front-kick parry",
+        "category": "Defense",
+        "subcategory": "Front-kick defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-069",
+        "technique": "Body-kick catch and release",
+        "category": "Defense",
+        "subcategory": "Kick catch",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-066",
+        "technique": "Inside low-kick check",
+        "category": "Defense",
+        "subcategory": "Low-kick check",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-068",
+        "technique": "Step-back low-kick evade",
+        "category": "Defense",
+        "subcategory": "Low-kick evasion",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-024",
+        "technique": "Roll under hook",
+        "category": "Defense",
+        "subcategory": "Punch defence",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "KB-023",
+        "technique": "Slip straight punch",
+        "category": "Defense",
+        "subcategory": "Punch defence",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Defend with the smallest movement that preserves kick readiness.",
+          "Return immediately while the opponent is resetting.",
+          "Keep stance balanced against low-kick and knee threats."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "defense"
+        ]
+      },
+      {
+        "technique_id": "KB-004",
+        "technique": "Lateral step / angle",
+        "category": "Footwork",
+        "subcategory": "Angle",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "footwork"
+        ]
+      },
+      {
+        "technique_id": "KB-037",
+        "technique": "Lead pivot",
+        "category": "Footwork",
+        "subcategory": "Angle creation",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-038",
+        "technique": "Rear pivot",
+        "category": "Footwork",
+        "subcategory": "Angle creation",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-039",
+        "technique": "L-step exit",
+        "category": "Footwork",
+        "subcategory": "Exit",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-055",
+        "technique": "Rear head kick",
+        "category": "Kick",
+        "subcategory": "Head round kick",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-015",
+        "technique": "Switch kick",
+        "category": "Kick",
+        "subcategory": "Lead-side kick",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-017",
+        "technique": "Side kick",
+        "category": "Kick",
+        "subcategory": "Linear kick",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-012",
+        "technique": "Inside low kick",
+        "category": "Kick",
+        "subcategory": "Low kick",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-019",
+        "technique": "Step-in knee",
+        "category": "Knee",
+        "subcategory": "Entry knee",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "knee"
+        ]
+      },
+      {
+        "technique_id": "KB-018",
+        "technique": "Straight knee",
+        "category": "Knee",
+        "subcategory": "Knee",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "knee"
+        ]
+      },
+      {
+        "technique_id": "KB-064",
+        "technique": "Switch knee",
+        "category": "Knee",
+        "subcategory": "Lead-side knee",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-063",
+        "technique": "Skip knee",
+        "category": "Knee",
+        "subcategory": "Rhythm knee",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-061",
+        "technique": "Lead knee",
+        "category": "Knee",
+        "subcategory": "Straight knee",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-062",
+        "technique": "Rear knee",
+        "category": "Knee",
+        "subcategory": "Straight knee",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-046",
+        "technique": "Lead hook to body",
+        "category": "Punch",
+        "subcategory": "Body hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-047",
+        "technique": "Rear hook to body",
+        "category": "Punch",
+        "subcategory": "Body hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-044",
+        "technique": "Jab to body",
+        "category": "Punch",
+        "subcategory": "Body jab",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-045",
+        "technique": "Cross to body",
+        "category": "Punch",
+        "subcategory": "Body straight",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-008",
+        "technique": "Rear hook",
+        "category": "Punch",
+        "subcategory": "Hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "KB-048",
+        "technique": "Rear overhand",
+        "category": "Punch",
+        "subcategory": "Overhand",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-049",
+        "technique": "Lead shovel hook",
+        "category": "Punch",
+        "subcategory": "Shovel hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-050",
+        "technique": "Rear shovel hook",
+        "category": "Punch",
+        "subcategory": "Shovel hook",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-009",
+        "technique": "Lead uppercut",
+        "category": "Punch",
+        "subcategory": "Uppercut",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "KB-010",
+        "technique": "Rear uppercut",
+        "category": "Punch",
+        "subcategory": "Uppercut",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "punch"
+        ]
+      },
+      {
+        "technique_id": "KB-102",
+        "technique": "Kick feint",
+        "category": "Tactics",
+        "subcategory": "Feint",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "technique_id": "KB-096",
+        "technique": "Body kick feint -> cross",
+        "category": "Combination",
+        "subcategory": "Feint-punch",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-091",
+        "technique": "Double lead hook -> rear body kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-090",
+        "technique": "Lead hook -> cross -> lead hook -> rear body kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-028",
+        "technique": "Lead hook -> cross -> lead hook -> rear middle kick",
+        "category": "Combination",
+        "subcategory": "Punch-kick chain",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "combination"
+        ]
+      },
+      {
+        "technique_id": "KB-089",
+        "technique": "Jab -> cross -> lead hook -> rear knee",
+        "category": "Combination",
+        "subcategory": "Punch-knee",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use boxing-quality mechanics while preserving a kick-ready base.",
+          "Avoid overcommitting weight onto the lead leg.",
+          "Chain or exit without pausing in range."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-077",
+        "technique": "Catch body kick -> cross",
+        "category": "Counter",
+        "subcategory": "Kick-catch counter",
+        "aics_level": "Advanced",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-040",
+        "technique": "Cut-off step",
+        "category": "Footwork",
+        "subcategory": "Ring control",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-041",
+        "technique": "Stance switch",
+        "category": "Footwork",
+        "subcategory": "Stance transition",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "C",
+        "canonical_status": "Elite variant",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-057",
+        "technique": "Question-mark kick",
+        "category": "Kick",
+        "subcategory": "Deceptive high kick",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-060",
+        "technique": "Axe kick",
+        "category": "Kick",
+        "subcategory": "Downward kick",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-014",
+        "technique": "High round kick",
+        "category": "Kick",
+        "subcategory": "Head kick",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-056",
+        "technique": "Lead head kick",
+        "category": "Kick",
+        "subcategory": "Head round kick",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-058",
+        "technique": "Back kick",
+        "category": "Kick",
+        "subcategory": "Linear rear kick",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-033",
+        "technique": "Spinning back kick",
+        "category": "Kick",
+        "subcategory": "Spinning",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "kick"
+        ]
+      },
+      {
+        "technique_id": "KB-059",
+        "technique": "Spinning hook kick",
+        "category": "Kick",
+        "subcategory": "Spinning kick",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Use hip rotation and a stable support leg; do not throw from a collapsed stance.",
+          "Keep hands/head defensively responsible through the kick.",
+          "Recover quickly enough to defend the return."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-065",
+        "technique": "Frame -> knee",
+        "category": "Knee",
+        "subcategory": "Entry knee",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Enter knee range behind a strike, frame or reaction.",
+          "Keep posture and guard organized.",
+          "Respect K-1 clinch/holding limits and release when required."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-099",
+        "technique": "Ankle sweep off punch entry",
+        "category": "Sweep",
+        "subcategory": "Foot sweep",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-032",
+        "technique": "Ankle-level foot sweep",
+        "category": "Sweep",
+        "subcategory": "K1-legal sweep",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "K-1 stance and guard"
+        ],
+        "rules_safety": "Use the current WAKO/K-1 ruleset. Clinch holding, knees, sweeps and spinning attacks are rules-sensitive.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "kickboxing",
+          "sweep"
+        ]
+      },
+      {
+        "technique_id": "KB-100",
+        "technique": "Ring cutting",
+        "category": "Tactics",
+        "subcategory": "Pressure",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      },
+      {
+        "technique_id": "KB-103",
+        "technique": "Pressure-to-angle exit",
+        "category": "Tactics",
+        "subcategory": "Ring movement",
+        "aics_level": "Advanced",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Blend hands and kicks without resetting unnecessarily.",
+          "Maintain balance and legal K-1 distance.",
+          "Exit or counter after the action."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Kickboxing / K-1 rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-KB-01",
+          "SRC-KB-02"
+        ],
+        "source_urls": [
+          "https://www.wako.sport/de/rules-overview",
+          "https://dynamicstriking.com/collections/daily-deals/products/the-dutch-kickboxing-blueprint-by-ernesto-hoost"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "striking"
+        ]
+      }
+    ]
+  }
+}
