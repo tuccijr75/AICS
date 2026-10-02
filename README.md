@@ -1,43 +1,58 @@
 # AICS
 
-AICS is being refactored into a multidisciplinary combat-sports training platform.
+AICS is a multidisciplinary combat-sports training platform.
 
-## Current architecture
+## Architecture
 
-- Individual disciplines remain technically distinct.
-- AICS provides the shared progression, assessment, readiness, workload, coaching, and Fight Camp platform.
-- The Fighting Matrix is the cross-discipline integration layer.
-- The original integrated AICS curriculum remains separate from discipline-specific technique libraries.
+- Each combat discipline owns an independent technique database.
+- AICS provides shared progression, assessment, readiness, workload, coaching, and Fight Camp infrastructure.
+- The Fighting Matrix is the cross-discipline integration layer; it does not redefine the source disciplines.
+- The original integrated AICS curriculum remains a separate first-party method rather than the default curriculum for every discipline.
 
-## Technique database
+## Discipline databases
 
-Canonical data:
+Canonical technique data is split by discipline:
 
-- `data/Techniques.json` — complete machine-readable technique database.
-- `data/index.json` — coverage/index metadata.
-- `data/sources.json` — source registry.
+| Discipline | File | Verified records |
+|---|---|---:|
+| Boxing | `data/boxing.json` | 117 |
+| Muay Thai | `data/muaythai.json` | 141 |
+| Kickboxing / K-1 | `data/kickboxing.json` | 103 |
+| Freestyle Wrestling | `data/freestyle.json` | 111 |
+| Greco-Roman Wrestling | `data/greco.json` | 97 |
+| Folkstyle Wrestling | `data/folkstyle.json` | 144 |
+| Judo | `data/judo.json` | 138 |
+| Brazilian Jiu-Jitsu | `data/bjj.json` | 245 |
 
-Current v1.0 coverage:
+Current verified total: **1,096 records**.
 
-- Boxing — 40
-- Muay Thai — 44
-- Kickboxing / K-1 — 34
-- Freestyle Wrestling — 32
-- Greco-Roman Wrestling — 28
-- Folkstyle Wrestling — 64
-- Judo — 100
-- Brazilian Jiu-Jitsu — 66
+`data/index.json` is the database manifest and `data/sources.json` is the shared source registry.
 
-Total: **408 techniques**.
+There is intentionally **no technique-count target**. A technique is added only when it has a distinct technical purpose and survives the verification standard. Counts are expected to differ substantially by discipline.
 
-Technique records include evidence grade, level, canonical status, best-practice notes, prerequisites, rules/safety constraints, source links, Fighting Matrix tags, and rules-review date.
+## Progression
 
-## Source doctrine
+Every discipline database is organized into:
 
-Techniques must be grounded in recognized governing-body curricula/classifications, current rules, and/or repeated elite-level direct instruction and competition validation. Individual stylistic preferences are not promoted to canonical technique doctrine without corroboration.
+1. **Beginner** — foundational mechanics, positions, movement, safety, and low-prerequisite techniques.
+2. **Intermediate** — timing, reaction, chaining, counters, positional development, and higher prerequisite burden.
+3. **Advanced** — specialist systems, high-coordination actions, advanced counters/chains, rules-sensitive material, and verified elite variants.
 
-Restricted, historical, or rules-sensitive techniques remain available for taxonomy and research but are excluded from default progression.
+The levels are AICS pedagogical levels, not replacements for official belts, ranks, or governing-body classifications.
 
-## Repository use
+## Verification doctrine
 
-This repository is the working and storage source for AICS going forward. Material changes should be committed here rather than maintained only in chat artifacts.
+Canonical records must be supported by recognized governing-body curricula/classifications or current rules frameworks and by credible technical evidence such as repeated elite competition use or direct instruction from proven elite practitioners/coaches.
+
+Each record stores its evidence grade, effectiveness basis, best-practice cues, prerequisites, safety/rules constraints, source IDs/URLs, verification status, rules-review date, and Fighting Matrix tags.
+
+- **A:** canonical/official framework with strong competitive consistency.
+- **B:** established competition-proven technique supported by convergent authoritative/elite sources.
+- **C:** verified elite variant; effective but style-dependent, not a universal default.
+- **D:** historical/specialized/reference-only and excluded from normal progression.
+
+No technique is added merely to increase database size.
+
+## Repository doctrine
+
+This repository is the working and storage source of truth for AICS. Material technique, curriculum, rules, source, and Fighting Matrix changes must be committed here rather than existing only in chat artifacts.
