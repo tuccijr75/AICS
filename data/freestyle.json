@@ -1,0 +1,4554 @@
+{
+  "schema_version": "2.0.0",
+  "database_version": "2026.10.02",
+  "discipline": "Freestyle Wrestling",
+  "status": "active",
+  "quality_policy": {
+    "count_target": null,
+    "rule": "No technique is included to meet a numeric quota.",
+    "inclusion": "Each record must have a recognized technical source and/or elite competition/direct-instruction validation, a current rules/safety review, and a distinct technical purpose.",
+    "default_curriculum_evidence": [
+      "A",
+      "B"
+    ],
+    "elite_variants": "C records are verified and effective but style-dependent; they are not universal defaults.",
+    "reference_only": "D records, if present, are reference-only and excluded from normal progression."
+  },
+  "level_definitions": {
+    "beginner": "Foundational actions with low prerequisite burden; balance, safety and repeatable mechanics come first.",
+    "intermediate": "Established fundamentals plus timing, chaining, positional awareness or reaction-based execution.",
+    "advanced": "Higher coordination, reaction dependence, positional risk, rules complexity, specialist execution or elite-system variation."
+  },
+  "counts": {
+    "total": 111,
+    "beginner": 20,
+    "intermediate": 60,
+    "advanced": 31
+  },
+  "sources": [
+    {
+      "source_id": "SRC-WR-01",
+      "discipline": "Wrestling",
+      "source_type": "National governing-body curriculum",
+      "name": "USA Wrestling — Core Curriculum",
+      "url": "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+      "use": "Official Folkstyle Levels 1–3, Olympic Styles Level 1, Freestyle Level 2 and Greco-Roman Level 2."
+    },
+    {
+      "source_id": "SRC-WR-02",
+      "discipline": "Wrestling",
+      "source_type": "Rules",
+      "name": "USA Wrestling — Rule Book & Guide",
+      "url": "https://www.usawmembership.com/usa_wrestling_rule_book",
+      "use": "Current freestyle/Greco rule guide; UWW official rules supersede it internationally."
+    },
+    {
+      "source_id": "SRC-WR-04",
+      "discipline": "Freestyle Wrestling",
+      "source_type": "Elite competition validation",
+      "name": "UWW — Jordan Burroughs classic double-leg",
+      "url": "https://uww.org/articles/burroughs-rides-classic-takedown-5th-world-title-1st-79kg",
+      "use": "World-level validation of the double-leg as a repeatable elite scoring attack."
+    },
+    {
+      "source_id": "SRC-WR-05",
+      "discipline": "Freestyle Wrestling",
+      "source_type": "Elite direct instruction",
+      "name": "John Smith — Low Single",
+      "url": "https://www.youtube.com/watch?v=A8ys3e6w69Q",
+      "use": "Direct instruction from an Olympic/world champion on his signature low single."
+    },
+    {
+      "source_id": "SRC-WR-10",
+      "discipline": "Freestyle Wrestling",
+      "source_type": "Elite direct instruction",
+      "name": "John Smith — Championship Wrestling Fundamentals: Cowboy Offense",
+      "url": "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+      "use": "Stance, motion, low single, high crotch, elbow-control attacks, duck-unders and pass-bys."
+    },
+    {
+      "source_id": "SRC-WR-03",
+      "discipline": "Wrestling",
+      "source_type": "International federation education",
+      "name": "United World Wrestling — Coach Education Pathway",
+      "url": "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+      "use": "Structured grassroots-to-elite coach education."
+    },
+    {
+      "source_id": "SRC-WR-12",
+      "discipline": "Freestyle Wrestling",
+      "source_type": "Elite direct instruction",
+      "name": "Kyle Dake — Mastering Underhook Offense",
+      "url": "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+      "use": "Underhook entries, snapdowns, drags, duck-unders, throw-bys, headlocks and chain wrestling."
+    },
+    {
+      "source_id": "SRC-WR-11",
+      "discipline": "Wrestling",
+      "source_type": "Elite direct instruction",
+      "name": "Gable Steveson — Gold Standard Wrestling Defense",
+      "url": "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+      "use": "Single-leg defence, front-headlock defence, bottom escapes, top turns, inside trip and super duck."
+    }
+  ],
+  "techniques": {
+    "beginner": [
+      {
+        "technique_id": "FS-079",
+        "technique": "Front headlock go-behind",
+        "category": "Counter offense",
+        "subcategory": "Front headlock",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-015",
+        "technique": "Down block and sprawl",
+        "category": "Defense",
+        "subcategory": "Shot defence",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-085",
+        "technique": "Sprawl -> front headlock",
+        "category": "Defense",
+        "subcategory": "Shot defense",
+        "aics_level": "Beginner",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-014",
+        "technique": "Transition to par terre",
+        "category": "Finish",
+        "subcategory": "Transition",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Build a stable base before exposing hips or hands.",
+          "Clear the opponent's primary control before turning.",
+          "Finish facing or separating into a legal neutral position."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-036",
+        "technique": "Circle motion",
+        "category": "Foundation",
+        "subcategory": "Motion",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-035",
+        "technique": "Level change",
+        "category": "Foundation",
+        "subcategory": "Motion",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-001",
+        "technique": "Freestyle stance",
+        "category": "Foundation",
+        "subcategory": "Stance",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-033",
+        "technique": "Square stance",
+        "category": "Foundation",
+        "subcategory": "Stance",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-034",
+        "technique": "Staggered stance",
+        "category": "Foundation",
+        "subcategory": "Stance",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-017",
+        "technique": "Gut wrench",
+        "category": "Par terre",
+        "subcategory": "Turn",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "FS-020",
+        "technique": "Par-terre bottom: square / heavy hips",
+        "category": "Par terre defence",
+        "subcategory": "Base",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "FS-101",
+        "technique": "Par-terre bottom movement",
+        "category": "Par terre defense",
+        "subcategory": "Bottom movement",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-006",
+        "technique": "2-on-1 control",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-038",
+        "technique": "Collar tie",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-008",
+        "technique": "Inside tie / elbow tie",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-005",
+        "technique": "Wrist tie / baseball grip",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Beginner",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-002",
+        "technique": "Blast double leg",
+        "category": "Takedown",
+        "subcategory": "Double leg",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-04",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/burroughs-rides-classic-takedown-5th-world-title-1st-79kg",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-004",
+        "technique": "Snap down / front headlock",
+        "category": "Takedown",
+        "subcategory": "Front headlock",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-055",
+        "technique": "Head-inside single",
+        "category": "Takedown",
+        "subcategory": "Single leg",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-003",
+        "technique": "Snatch single leg",
+        "category": "Takedown",
+        "subcategory": "Single leg",
+        "aics_level": "Beginner",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "technique_id": "FS-078",
+        "technique": "Arm drag -> go-behind",
+        "category": "Chain wrestling",
+        "subcategory": "Arm drag",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-077",
+        "technique": "Arm drag -> single leg",
+        "category": "Chain wrestling",
+        "subcategory": "Arm drag",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-068",
+        "technique": "High crotch -> double leg",
+        "category": "Chain wrestling",
+        "subcategory": "High crotch",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-080",
+        "technique": "Front headlock knee tap",        "category": "Counter offense",
+        "subcategory": "Front headlock",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-081",
+        "technique": "Front headlock spin-behind",
+        "category": "Counter offense",
+        "subcategory": "Front headlock",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-092",
+        "technique": "Go-behind from defended shot",
+        "category": "Counter offense",
+        "subcategory": "Reattack",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-091",
+        "technique": "Reshot after sprawl",
+        "category": "Counter offense",
+        "subcategory": "Reattack",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-016",
+        "technique": "Stuff head to crossface",
+        "category": "Defense",
+        "subcategory": "Counter",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-090",
+        "technique": "Front-headlock defense",
+        "category": "Defense",
+        "subcategory": "Front headlock",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-086",
+        "technique": "Down-block -> reattack",
+        "category": "Defense",
+        "subcategory": "Reattack",
+        "aics_level": "Intermediate",
+        "record_type": "Counter",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-088",
+        "technique": "Head-outside single defense",
+        "category": "Defense",
+        "subcategory": "Single-leg defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-087",
+        "technique": "Whizzer vs head-inside single",
+        "category": "Defense",
+        "subcategory": "Single-leg defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-012",
+        "technique": "Cover opponent's hips",
+        "category": "Finish",
+        "subcategory": "Control",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-065",
+        "technique": "Double leg corner finish",
+        "category": "Finish",
+        "subcategory": "Double leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-067",
+        "technique": "High crotch dump finish",
+        "category": "Finish",
+        "subcategory": "High crotch",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-030",
+        "technique": "Foot-to-mat single finish",
+        "category": "Finish",
+        "subcategory": "Single finish",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-057",
+        "technique": "Single leg high finish",
+        "category": "Finish",
+        "subcategory": "Single leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-058",
+        "technique": "Single leg low finish",
+        "category": "Finish",
+        "subcategory": "Single leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-059",
+        "technique": "Single leg run-the-pipe finish",
+        "category": "Finish",
+        "subcategory": "Single leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-013",
+        "technique": "Turk transition",
+        "category": "Finish",
+        "subcategory": "Turn",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Build a stable base before exposing hips or hands.",
+          "Clear the opponent's primary control before turning.",
+          "Finish facing or separating into a legal neutral position."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-037",
+        "technique": "Stance-motion-shot-sprawl chain",
+        "category": "Foundation",
+        "subcategory": "Integrated movement",
+        "aics_level": "Intermediate",
+        "record_type": "Drill-derived skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-093",
+        "technique": "Gut wrench — high lock",
+        "category": "Par terre",
+        "subcategory": "Gut wrench",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-094",
+        "technique": "Gut wrench — mid lock",
+        "category": "Par terre",
+        "subcategory": "Gut wrench",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-096",
+        "technique": "Ankle lace — standard lock",
+        "category": "Par terre",
+        "subcategory": "Leg lace",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-018",
+        "technique": "Ankle lace",
+        "category": "Par terre",
+        "subcategory": "Turn",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "FS-028",
+        "technique": "Gut wrench — low lock",
+        "category": "Par terre",
+        "subcategory": "Turn",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "FS-021",
+        "technique": "Fight the lock",
+        "category": "Par terre defence",
+        "subcategory": "Hand fighting",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "FS-103",
+        "technique": "Gut-wrench low-lock defense",
+        "category": "Par terre defense",
+        "subcategory": "Gut-wrench defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-102",
+        "technique": "Ankle-lace defense",
+        "category": "Par terre defense",
+        "subcategory": "Leg-lace defense",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-104",
+        "technique": "Hand fighting for lock prevention",
+        "category": "Par terre defense",
+        "subcategory": "Lock prevention",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-048",
+        "technique": "Underhook throw-by",
+        "category": "Setup",
+        "subcategory": "Angle attack",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-049",
+        "technique": "Underhook same-side drag",
+        "category": "Setup",
+        "subcategory": "Drag",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-011",
+        "technique": "Backstep",
+        "category": "Setup",
+        "subcategory": "Footwork",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-046",
+        "technique": "Underhook circle snapdown",
+        "category": "Setup",
+        "subcategory": "Snapdown",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-047",
+        "technique": "Underhook straight snap",
+        "category": "Setup",
+        "subcategory": "Snapdown",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-007",
+        "technique": "Arm drag / chop",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-039",
+        "technique": "Elbow control",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-041",
+        "technique": "Overhook / whizzer tie",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-042",
+        "technique": "Russian 2-on-1",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-040",
+        "technique": "Underhook",
+        "category": "Setup",
+        "subcategory": "Tie",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-043",
+        "technique": "Wrist roll -> underhook",
+        "category": "Setup",
+        "subcategory": "Underhook entry",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-105",
+        "technique": "Step-out pressure attack",
+        "category": "Tactics",
+        "subcategory": "Boundary scoring",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-02",
+          "SRC-WR-03"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_rule_book",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-107",
+        "technique": "Fake level change -> shot",
+        "category": "Tactics",
+        "subcategory": "Feint",
+        "aics_level": "Intermediate",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-106",
+        "technique": "Center-control hand fight",
+        "category": "Tactics",
+        "subcategory": "Positioning",
+        "aics_level": "Intermediate",
+        "record_type": "Skill",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-02",
+          "SRC-WR-03"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_rule_book",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-010",
+        "technique": "2-on-1 duck under",
+        "category": "Takedown",
+        "subcategory": "2-on-1",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-009",
+        "technique": "2-on-1 high dive",
+        "category": "Takedown",
+        "subcategory": "2-on-1",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-070",
+        "technique": "Ankle pick",
+        "category": "Takedown",
+        "subcategory": "Ankle pick",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-083",
+        "technique": "Body lock mat return",
+        "category": "Takedown",
+        "subcategory": "Body lock",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-025",
+        "technique": "Inline fireman's carry",
+        "category": "Takedown",
+        "subcategory": "Carry",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-064",
+        "technique": "Double leg post setup",
+        "category": "Takedown",
+        "subcategory": "Double leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-024",
+        "technique": "Outside double leg",
+        "category": "Takedown",
+        "subcategory": "Double leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-04",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/burroughs-rides-classic-takedown-5th-world-title-1st-79kg",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-073",
+        "technique": "Duck under",
+        "category": "Takedown",
+        "subcategory": "Duck under",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-026",
+        "technique": "Duckunder from outside step",
+        "category": "Takedown",
+        "subcategory": "Duckunder",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-022",
+        "technique": "High crotch",
+        "category": "Takedown",
+        "subcategory": "Inside-step",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-071",
+        "technique": "Underhook knee pick",
+        "category": "Takedown",
+        "subcategory": "Knee pick",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-075",
+        "technique": "Pass-by",
+        "category": "Takedown",
+        "subcategory": "Pass-by",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-056",
+        "technique": "Head-outside single",
+        "category": "Takedown",
+        "subcategory": "Single leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-023",
+        "technique": "Outside-step single",
+        "category": "Takedown",
+        "subcategory": "Single leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-054",
+        "technique": "Sweep single",
+        "category": "Takedown",
+        "subcategory": "Single leg",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-076",
+        "technique": "Slide-by",
+        "category": "Takedown",
+        "subcategory": "Slide-by",
+        "aics_level": "Intermediate",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "technique_id": "FS-110",
+        "technique": "Duck under -> double leg",
+        "category": "Chain wrestling",
+        "subcategory": "Duck under",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-053",
+        "technique": "Double leg -> underhook transition",
+        "category": "Chain wrestling",
+        "subcategory": "Failed-shot transition",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-052",
+        "technique": "Single leg -> underhook transition",
+        "category": "Chain wrestling",
+        "subcategory": "Failed-shot transition",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-109",
+        "technique": "Low single -> far-leg transition",
+        "category": "Chain wrestling",
+        "subcategory": "Low single",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-111",
+        "technique": "Pass-by -> rear body lock",
+        "category": "Chain wrestling",
+        "subcategory": "Pass-by",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-072",
+        "technique": "Snapdown -> ankle pick",
+        "category": "Chain wrestling",
+        "subcategory": "Snapdown to leg attack",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-051",
+        "technique": "Underhook -> double leg",
+        "category": "Chain wrestling",
+        "subcategory": "Underhook to leg attack",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-032",
+        "technique": "Re-attack after shot defence",
+        "category": "Counter",
+        "subcategory": "Re-attack",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Stop the opponent's penetration with hips/head/hands in sequence.",
+          "Clear danger before counterattacking.",
+          "Circle to a scoring position instead of remaining extended."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-089",
+        "technique": "Low-single defense: hip/head pressure",
+        "category": "Defense",
+        "subcategory": "Low-single defense",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-066",
+        "technique": "Double leg lift-and-return finish",
+        "category": "Finish",
+        "subcategory": "Double leg",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-069",
+        "technique": "High crotch crackdown finish",
+        "category": "Finish",
+        "subcategory": "High crotch",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-031",
+        "technique": "Foot-to-mat finish with moving head",
+        "category": "Finish",
+        "subcategory": "Single finish",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-063",
+        "technique": "Crackdown limp-leg finish",
+        "category": "Finish",
+        "subcategory": "Single leg",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-062",
+        "technique": "Crackdown shelf finish",
+        "category": "Finish",
+        "subcategory": "Single leg",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-061",
+        "technique": "Single leg crackdown position",
+        "category": "Finish",
+        "subcategory": "Single leg",
+        "aics_level": "Advanced",
+        "record_type": "Position",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-060",
+        "technique": "Single leg shelf finish",
+        "category": "Finish",
+        "subcategory": "Single leg",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-095",
+        "technique": "Gut wrench — step-over finish",
+        "category": "Par terre",
+        "subcategory": "Gut wrench",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-098",
+        "technique": "Ankle lace — hip-to-hip turn",
+        "category": "Par terre",
+        "subcategory": "Leg lace",
+        "aics_level": "Advanced",
+        "record_type": "Technique",        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-097",
+        "technique": "Ankle lace — transition from takedown",
+        "category": "Par terre",
+        "subcategory": "Leg lace",
+        "aics_level": "Advanced",
+        "record_type": "Combination",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-019",
+        "technique": "Reverse lift",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "FS-099",
+        "technique": "Reverse lift — chest-to-back lock",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-100",
+        "technique": "Straight lift from par terre",
+        "category": "Par terre",
+        "subcategory": "Lift",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "ground",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-029",
+        "technique": "Leg lace — cartwheel",
+        "category": "Par terre",
+        "subcategory": "Turn",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "ground"
+        ]
+      },
+      {
+        "technique_id": "FS-050",
+        "technique": "Underhook opposite-side drag",
+        "category": "Setup",
+        "subcategory": "Drag",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-045",
+        "technique": "Pop hook -> underhook",
+        "category": "Setup",
+        "subcategory": "Underhook entry",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-044",
+        "technique": "Whip hook -> underhook",
+        "category": "Setup",
+        "subcategory": "Underhook entry",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Control the tie with head position and footwork, not arm strength alone.",
+          "Use pressure/reaction to create the attack angle.",
+          "Transition quickly if the opponent squares or clears the tie."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-12",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/mastering-underhook-offense-by-kyle-dake",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-084",
+        "technique": "Rear body lock lift",
+        "category": "Takedown",
+        "subcategory": "Body lock",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Establish chest/hip connection and a secure lock before turning.",
+          "Use legs and body angle to create exposure rather than arm strength.",
+          "Maintain control through the scoring action and follow current safety rules."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-03",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://uww.org/articles/uww-launches-coach-education-pathway-elevate-wrestling-coaching",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-074",
+        "technique": "Super duck",
+        "category": "Takedown",
+        "subcategory": "Duck under",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-027",
+        "technique": "Low single",
+        "category": "Takedown",
+        "subcategory": "Low single",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "official/elite validated",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Olympic Styles Level 1 fundamentals"
+        ],
+        "rules_safety": "Use current USA Wrestling/UWW rules; scoring, exposure and out-of-bounds interpretations are rules-sensitive.",
+        "source_ids": [
+          "SRC-WR-01",
+          "SRC-WR-05",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://www.usawmembership.com/usa_wrestling_core_curriculum",
+          "https://www.youtube.com/watch?v=A8ys3e6w69Q",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "wrestling",
+          "freestyle",
+          "standing"
+        ]
+      },
+      {
+        "technique_id": "FS-108",
+        "technique": "Misdirection low single",
+        "category": "Takedown",
+        "subcategory": "Low single",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "A",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Create a real setup before level change or entry.",
+          "Win head/hip position and connect tightly to the leg(s).",
+          "Finish through angle and pressure without reaching or standing underneath the opponent."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-10",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/championship-wrestling-fundamentals-cowboy-offense-by-john-smith",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      },
+      {
+        "technique_id": "FS-082",
+        "technique": "Inside trip",
+        "category": "Takedown",
+        "subcategory": "Trip",
+        "aics_level": "Advanced",
+        "record_type": "Technique",
+        "evidence_grade": "B",
+        "canonical_status": "Canonical",
+        "effectiveness_basis": "competition-proven / established",
+        "best_practice": [
+          "Maintain stance/head position and active hands.",
+          "Create reaction before committing.",
+          "Finish in stable scoring control."
+        ],
+        "prerequisites": [
+          "Core stance / positional fundamentals"
+        ],
+        "rules_safety": "Use current Freestyle Wrestling rules and qualified coaching; scale resistance/contact to athlete level.",
+        "source_ids": [
+          "SRC-WR-11",
+          "SRC-WR-02"
+        ],
+        "source_urls": [
+          "https://fanaticwrestling.com/products/gold-standard-wrestling-defense-by-gable-stevenson",
+          "https://www.usawmembership.com/usa_wrestling_rule_book"
+        ],
+        "verification": {
+          "status": "verified",
+          "basis": [
+            "authoritative technical/rules source",
+            "elite competition/direct-instruction validation"
+          ],
+          "last_reviewed": "2026-10-02"
+        },
+        "matrix_tags": [
+          "standing",
+          "wrestling"
+        ]
+      }
+    ]
+  }
+}
