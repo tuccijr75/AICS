@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-10-02",
+  "doctrine": {
+    "discipline_separated": true,
+    "fighting_matrix_is_integration_layer": true,
+    "default_curriculum_evidence": [
+      "A",
+      "B"
+    ],
+    "elite_variant_evidence": "C",
+    "reference_only_evidence": "D",
+    "rules_runtime_check_required": true
+  },
+  "files": [
+    {
+      "discipline": "Boxing",
+      "path": "data/boxing.json",
+      "count": 40
+    },
+    {
+      "discipline": "Brazilian Jiu-Jitsu",
+      "path": "data/brazilian-jiu-jitsu.json",
+      "count": 66
+    },
+    {
+      "discipline": "Folkstyle Wrestling",
+      "path": "data/folkstyle-wrestling.json",
+      "count": 64
+    },
+    {
+      "discipline": "Freestyle Wrestling",
+      "path": "data/freestyle-wrestling.json",
+      "count": 32
+    },
+    {
+      "discipline": "Greco-Roman Wrestling",
+      "path": "data/greco-roman-wrestling.json",
+      "count": 28
+    },
+    {
+      "discipline": "Judo",
+      "path": "data/judo.json",
+      "count": 100
+    },
+    {
+      "discipline": "Kickboxing / K-1",
+      "path": "data/kickboxing-k-1.json",
+      "count": 34
+    },
+    {
+      "discipline": "Muay Thai",
+      "path": "data/muay-thai.json",
+      "count": 44
+    }
+  ],
+  "sources_path": "data/sources.json",
+  "total_techniques": 408
+}
